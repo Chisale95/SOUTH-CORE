@@ -1,0 +1,43 @@
+SOUTH-CORE
+
+An ongoing engineering investigation into building resilient, offline-first systems for real-world environments.
+
+Current Phase
+
+Problem Investigation
+
+SOUTH-CORE begins with a simple principle:
+
+«Understand the problem before designing the solution.»
+
+We are investigating real-world environments, identifying where important information or capabilities become unavailable, measuring the consequences, challenging assumptions, and documenting what we learn.
+
+No final solution has been chosen yet.
+
+Engineering Process
+
+Understand
+    ↓
+Build
+    ↓
+Break
+    ↓
+Fix
+    ↓
+Prove
+    ↓
+Commit
+
+The project history is part of the project.
+
+Investigations, failed assumptions, design changes, experiments, measurements, failures, fixes, and decisions will be documented rather than hidden.
+
+Investigations
+
+- "Day 1 — Problem Investigation" (docs/investigations/day-001-problem-investigation.md)
+
+Project Principle
+
+Problem first. Code later.
+
+SOUTH-CORE will grow from evidence and understanding rather than from choosing technologies first.
