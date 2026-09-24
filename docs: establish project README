@@ -1,43 +1,46 @@
-SOUTH-CORE
+# SOUTH-CORE
 
-An ongoing engineering investigation into building resilient, offline-first systems for real-world environments.
+> **Problem first. Code later.**
 
-Current Phase
+SOUTH-CORE is a long-term systems engineering project focused on maintaining continuity of work when normal access to important information is disrupted.
 
-Problem Investigation
+The project is being developed incrementally from real-world problem investigation rather than from a predetermined technology stack.
 
-SOUTH-CORE begins with a simple principle:
+---
 
-«Understand the problem before designing the solution.»
+## Current Status
 
-We are investigating real-world environments, identifying where important information or capabilities become unavailable, measuring the consequences, challenging assumptions, and documenting what we learn.
+**Phase:** Problem Investigation → First Working Capability
 
-No final solution has been chosen yet.
+**Current capability under development:**
 
-Engineering Process
+> **Preserve unfinished work so that work can continue after disruption.**
 
-Understand
-    ↓
-Build
-    ↓
-Break
-    ↓
-Fix
-    ↓
-Prove
-    ↓
-Commit
+No large system architecture has been committed yet.
 
-The project history is part of the project.
+The project is intentionally being built one small, testable capability at a time.
 
-Investigations, failed assumptions, design changes, experiments, measurements, failures, fixes, and decisions will be documented rather than hidden.
+---
 
-Investigations
+# The Problem
 
-- "Day 1 — Problem Investigation" (docs/investigations/day-001-problem-investigation.md)
+Important information can exist without being accessible.
 
-Project Principle
+When normal access to information is disrupted, organisations may be forced into slower fallback processes.
 
-Problem first. Code later.
+That can reduce the amount of work that can be completed during a given period.
 
-SOUTH-CORE will grow from evidence and understanding rather than from choosing technologies first.
+When incoming work continues while processing capacity decreases, unfinished work can accumulate.
+
+```text
+Information becomes inaccessible
+            ↓
+Normal processing is disrupted
+            ↓
+Fallback processes may require more time
+            ↓
+Processing capacity decreases
+            ↓
+Some work remains unfinished
+            ↓
+Backlog increases
